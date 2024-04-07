@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Game.MainPage">
+
+    <ScrollView BackgroundColor="#6e8ae1">
+        <VerticalStackLayout 
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Margin="50"
+            Padding="30,0"
+            Spacing="25">
+
+
+            <Image
+                HorizontalOptions="Center"
+                Source="img_home.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Label
+                Margin="30"
+                HorizontalOptions="Center"
+                Text="Welcome to Puissance 4!"
+                TextColor="White"
+                FontSize="Header"
+                SemanticProperties.HeadingLevel="Level1" />
+
+
+            <Button
+                Margin="80"
+                Padding="20"
+                x:Name="CounterBtn"
+                Text="Commencer" 
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="EnvoiGame"
+                HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+

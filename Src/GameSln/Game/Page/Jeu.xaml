@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Game.Page.Jeu"
+             Title="Puissance 4"
+             BackgroundColor="#121212">
+
+    <Grid VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <Frame Grid.Column="0" BackgroundColor="#37474F" CornerRadius="10" Padding="10" HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="Joueur 1" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20"/>
+        </Frame>
+
+        <Frame Grid.Column="1" BackgroundColor="#333333" CornerRadius="10" Padding="10" HorizontalOptions="Center" VerticalOptions="Center">
+            <Grid ColumnSpacing="10" RowSpacing="10" HorizontalOptions="Fill" VerticalOptions="Fill">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="50" />
+                </Grid.ColumnDefinitions>
+
+                <BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="0" Grid.Column="1" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="0" Grid.Column="2" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="0" Grid.Column="3" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="0" Grid.Column="4" BackgroundColor="Whitesmoke" CornerRadius="25" />
+                <BoxView Grid.Row="0" Grid.Column="5" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="0" Grid.Column="6" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="0" Grid.Column="7" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="1" Grid.Column="0" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="1" Grid.Column="1" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="1" Grid.Column="2" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="1" Grid.Column="3" BackgroundColor="#546E7A" CornerRadius="25" />
+                <BoxView Grid.Row="1" Grid.Column="4" BackgroundColor="#546E7A" CornerRadius="25" />
+                <BoxView Grid.Row="1" Grid.Column="5" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="1" Grid.Column="6" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="1" Grid.Column="7" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="2" Grid.Column="0" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="2" Grid.Column="1" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="2" Grid.Column="2" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="2" Grid.Column="3" BackgroundColor="#546E7A" CornerRadius="25" />
+                <BoxView Grid.Row="2" Grid.Column="4" BackgroundColor="#546E7A" CornerRadius="25" />
+                <BoxView Grid.Row="2" Grid.Column="5" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="2" Grid.Column="6" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="2" Grid.Column="7" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="3" Grid.Column="0" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="3" Grid.Column="1" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="3" Grid.Column="2" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="3" Grid.Column="3" BackgroundColor="#546E7A" CornerRadius="25" />
+                <BoxView Grid.Row="3" Grid.Column="4" BackgroundColor="#546E7A" CornerRadius="25" />
+                <BoxView Grid.Row="3" Grid.Column="5" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="3" Grid.Column="6" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="3" Grid.Column="7" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="4" Grid.Column="0" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="4" Grid.Column="1" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="4" Grid.Column="2" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="4" Grid.Column="3" BackgroundColor="#546E7A" CornerRadius="25" />
+                <BoxView Grid.Row="4" Grid.Column="4" BackgroundColor="#546E7A" CornerRadius="25" />
+                <BoxView Grid.Row="4" Grid.Column="5" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="4" Grid.Column="6" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="4" Grid.Column="7" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="5" Grid.Column="0" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="5" Grid.Column="1" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="5" Grid.Column="2" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="5" Grid.Column="3" BackgroundColor="#546E7A" CornerRadius="25" />
+                <BoxView Grid.Row="5" Grid.Column="4" BackgroundColor="#546E7A" CornerRadius="25" />
+                <BoxView Grid.Row="5" Grid.Column="5" BackgroundColor="DarkSalmon" CornerRadius="25" />
+                <BoxView Grid.Row="5" Grid.Column="6" BackgroundColor="DarkSalmon" CornerRadius="25" />
+                <BoxView Grid.Row="5" Grid.Column="7" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="6" Grid.Column="0" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="6" Grid.Column="1" BackgroundColor="DarkSalmon" CornerRadius="25" />
+                <BoxView Grid.Row="6" Grid.Column="2" BackgroundColor="DarkSalmon" CornerRadius="25" />
+                <BoxView Grid.Row="6" Grid.Column="3" BackgroundColor="#546E7A" CornerRadius="25" />
+                <BoxView Grid.Row="6" Grid.Column="4" BackgroundColor="#546E7A" CornerRadius="25" />
+                <BoxView Grid.Row="6" Grid.Column="5" BackgroundColor="WhiteSmoke" CornerRadius="25" />
+                <BoxView Grid.Row="6" Grid.Column="6" BackgroundColor="DarkSalmon" CornerRadius="25" />
+                <BoxView Grid.Row="6" Grid.Column="7" BackgroundColor="DarkSalmon" CornerRadius="25" />
+
+
+            </Grid>
+        </Frame>
+
+        <Frame Grid.Column="2" BackgroundColor="DarkSalmon" CornerRadius="10" Padding="10" HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="Joueur 2" TextColor="WhiteSmoke" FontAttributes="Bold" FontSize="20"/>
+        </Frame>
+    </Grid>
+</ContentPage>
