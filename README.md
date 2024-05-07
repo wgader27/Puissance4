@@ -41,16 +41,9 @@ Alors, êtes-vous prêt à défier vos amis, à ajuster votre stratégie et à m
 
 ---
 
-## SAE 2.01 : Développement d'une application 
+ 
 
-
-Wahel GADER (Groupe 7) et Julien ABADIE (Groupe 8) , Jeu : Puissance 4
-
-
-Ce guide sera le vôtre. Ici notre travail sera expliqué, et il vous permettra d'accéder à nos différents travaux.
-
-
-Partie 1 à rendre le 30/03/24: 
+Partie 1 : 
 
 *  Création d'un contexte ([ici](./Document/Contexte.md))
 
