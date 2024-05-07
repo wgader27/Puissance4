@@ -39,3 +39,25 @@ Alors, êtes-vous prêt à défier vos amis, à ajuster votre stratégie et à m
 ## __Téléchargez maintenant et que le meilleur gagne ! 🏁__ 
 
 
+---
+
+## SAE 2.01 : Développement d'une application 
+
+
+Wahel GADER (Groupe 7) et Julien ABADIE (Groupe 8) , Jeu : Puissance 4
+
+
+Ce guide sera le vôtre. Ici notre travail sera expliqué, et il vous permettra d'accéder à nos différents travaux.
+
+
+Partie 1 à rendre le 30/03/24: 
+
+*  Création d'un contexte ([ici](./Document/Contexte.md))
+
+*  Règle du jeu ([ici](./Document/Regles_du_jeu.md))
+
+*  Mise en place de persona + userstory ([persona 1](./Document/img/persona1.png), [persona 2](./Document/img/persona2.png), [persona 3](./Document/img/persona3.png))
+
+*  Création de sketches + storyboard ([sketches](./) , [storyboard](./Document/img/storyboard.png))
+
+*  Création du diagramme de cas d'utilisation([ici](./Document/diagramme.md)) 
